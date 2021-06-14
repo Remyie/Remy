@@ -1,0 +1,26 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+relative_permalinks: false
+
+# Setup
+title:            Remy
+tagline:          ''
+description:      'a hyde flavor'
+url:              
+baseurl:          https://(username).github.io/
+
+author:
+  name:           
+  url:            
+
+paginate:         5
+
+# Custom vars
+version:          
+
+github:
+  repo:           

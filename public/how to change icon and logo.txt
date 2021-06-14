@@ -1,0 +1,4 @@
+favicon.ico is used for the icon at the browser. The logo.png is used for logo.
+Don't bother with changing the names (You are guaranteed to mess it up). Just change the ico and png file
+You can use an online site to turn png into favicon
+Png is 144x144px and the icon is 16x16px

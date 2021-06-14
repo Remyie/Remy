@@ -1,0 +1,28 @@
+<div class="sidebar">
+  <div class="container">
+    <div class="sidebar-about">
+      <h1>
+       <a href="{{ site.baseurl }}">
+          <img src="{{ site.baseurl }}/public/logo.png" alt="logo.png" width="144" height="144">
+        </a>
+        <a href="{{ site.baseurl }}">
+          {{ site.title }}
+        </a>
+      </h1>
+      <p class="lead">{{ site.description }}</p>
+    </div>
+
+    <nav class="sidebar-nav">
+      <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}about/">About</a>
+      
+      <!-- use the above command to add new pages to the side bar.example:
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}page">name for the page</a>
+      -->
+      
+      <span class="sidebar-nav-item" style="font-size:75%"> Made with Github Pages and Hyde </span>
+    </nav>
+
+    <p style="font-size:75%"> &copy; {{ site.time | date: '%Y' }}</p>
+  </div>
+</div>
