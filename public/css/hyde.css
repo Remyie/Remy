@@ -53,7 +53,7 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
-.img {
+img {
   display: block;
   margin-left:auto;
   margin-right:auto;
