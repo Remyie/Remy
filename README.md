@@ -34,4 +34,6 @@ You are done. You should be able to visit your site by going into yourusername.g
 
 ## I want cool text, please?
   https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax <br>
-  There you go.
+  There you go.<br><br>
+  
+If you have more questions you can go here https://github.com/poole/hyde. Which applies %99 to here.
