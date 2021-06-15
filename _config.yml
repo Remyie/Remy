@@ -1,6 +1,6 @@
 # Dependencies
-markdown:         redcarpet
-highlighter:      pygments
+markdown:         gfm
+highlighter:      rouge
 
 # Permalinks
 permalink:        pretty
@@ -9,9 +9,9 @@ relative_permalinks: false
 # Setup
 title:            Remy
 tagline:          ''
-description:      'a hyde flavor'
+description:      'A Hyde Flavor'
 url:              
-baseurl:          https://remyie.github.io/Remy/
+baseurl:          https://remyie.github.io/remy/
 
 author:
   name:           
