@@ -2,7 +2,6 @@
 layout: post
 title: Welcome to Remy
 ---
-https://remyie.github.io/remy/ <br>
 Remy is a Hyde flavor which aims to be more user friendly.<br>
 None of the code is actually mine. Here where it comes from https://github.com/poole/hyde <br>
 It's under MIT license. <br>
