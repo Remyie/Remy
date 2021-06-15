@@ -12,7 +12,7 @@ Yeah sure, go for it. I made a simple site template just for you.
 
 1. Create a Github account, create a new repository and name it yourusername.github.io, go in to your repository>settings>pages, enable Github Pages using /(root).
 2. Download the site template from here and unzip it. Upload the stuff inside it to your repository by simply dragging. It should look like mine.
-3. Open config.yml and change title and baseurl. Base url needs to be your Github repository name.
+3. Open config.yml and change title and baseurl. Base url needs to be your Github repository name. It should look like this ```https://username.github.io/```
 
 You are done. You should be able to visit your site by going into yourusername.github.io
 
