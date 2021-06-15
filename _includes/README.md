@@ -1,4 +1,4 @@
-##How to add new stuff to sidebar
+## How to add new stuff to sidebar
 
 First make sure your .md file has the following at the start
 
