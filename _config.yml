@@ -10,8 +10,8 @@ relative_permalinks: false
 title:            Remyie
 tagline:          ''
 description:      ''
-url:              https://remyie.github.io/remy
-baseurl:          https://remyie.github.io/remy
+url:              https://remyie.github.io/
+baseurl:          https://remyie.github.io/
 
 author:
   name:           
@@ -24,3 +24,5 @@ version:
 
 github:
   repo:           
+plugins:
+  - jekyll-sitemap
