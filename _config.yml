@@ -10,7 +10,7 @@ relative_permalinks: false
 title:            Remy
 tagline:          ''
 description:      ''
-url:              https://remyie.github.io/remy
+url:              
 baseurl:          https://remyie.github.io/remy
 
 author:
