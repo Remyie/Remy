@@ -3,15 +3,6 @@ layout: page
 title: About me
 ---
 
-My name is Ozan "Remyie". I'm a 18 years old student who lives in Turkey. I'm insterested in computer hardware, video games, video editing, photo editing. I like watching anime and playing video games. I know Turkish and English languages.
+An example page...
 
-## Where can I found you?
-
-My Discord: Remy#7410 <br>
-[My Steam Profile](https://steamcommunity.com/id/remichan/)
-
-I'm online at least 8 hours a day on both Discord and Steam.
-
-[My Youtube Channel](https://www.youtube.com/c/HidrOzanTr)
-
-In other places you might find me with my nicknames: Ozan, Rem, Remy, Remyie, SinsiPenguen, HidrOzan, timfocak
+Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet facilisis magna etiam tempor orci. Tellus orci ac auctor augue mauris augue neque gravida in. Suspendisse interdum consectetur libero id faucibus nisl tincidunt. Posuere lorem ipsum dolor sit amet. Lacinia quis vel eros donec ac odio tempor orci. Id donec ultrices tincidunt arcu non. Facilisi cras fermentum odio eu feugiat pretium nibh. Sagittis vitae et leo duis ut diam quam nulla. Scelerisque felis imperdiet proin fermentum leo vel orci porta. Dictumst quisque sagittis purus sit amet volutpat consequat mauris. Lacus sed turpis tincidunt id aliquet. Interdum velit euismod in pellentesque massa placerat duis ultricies lacus. Ultricies integer quis auctor elit sed vulputate mi sit amet. Eu lobortis elementum nibh tellus molestie nunc non blandit massa.
