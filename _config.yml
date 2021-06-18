@@ -24,5 +24,3 @@ version:
 
 github:
   repo:           
-plugins:
-  - jekyll-sitemap
