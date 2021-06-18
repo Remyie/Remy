@@ -7,11 +7,11 @@ permalink:        pretty
 relative_permalinks: false
 
 # Setup
-title:            Remyie
+title:            Remy
 tagline:          ''
 description:      ''
-url:              https://remyie.github.io/
-baseurl:          https://remyie.github.io/
+url:              https://remyie.github.io/remy
+baseurl:          https://remyie.github.io/remy
 
 author:
   name:           
