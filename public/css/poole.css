@@ -52,11 +52,15 @@ html {
   font-size: 16px;
   line-height: 1.5;
 }
+
+/* This increases the font size when the width of the browser was low. I had to disable it. Don't enable it.
+
 @media (min-width: 38em) {
   html {
     font-size: 20px;
   }
 }
+*/
 
 body {
   color: #515151;

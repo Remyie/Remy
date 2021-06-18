@@ -1,4 +1,6 @@
-<div class="sidebar">
+<!DOCTYPE html>
+<html>
+ <div class="sidebar">
   <div class="container">
     <div class="sidebar-about">
       <h1>
@@ -9,20 +11,33 @@
           {{ site.title }}
         </p>
       </h1>
-      <p class="lead" style="text-align:center">{{ site.description }}</p>
+     <span class="sidebar-nav-item" style="font-size:66%;text-align:center;"> Made with Github Pages and <a href="https://remyie.github.io/remy/">Remy</a> &copy; 2021 </span>
+     <br>
     </div>
 
     <nav class="sidebar-nav">
       <a class="sidebar-nav-item{% if page.url == site.baseurl %} active{% endif %}" href="{{ site.baseurl }}">Home</a>
-      <a class="sidebar-nav-item" href="{{ site.baseurl }}about/">About</a>
-      <a class="sidebar-nav-item" href="https://github.com/Remyie/remy">Github Page / Downlaod</a>
-      <!-- use the above command to add new pages to the side bar.example:
+       
+      
+      <!-- use the below command to add new pages to the sidebar. Example:
       <a class="sidebar-nav-item" href="{{ site.baseurl }}page">name for the page</a>
       -->
+    
+      <a class="sidebar-nav-item" href="{{ site.baseurl }}about/">About</a>
       
-      <span class="sidebar-nav-item" style="font-size:75%"> Made with Github Pages and Remy </span>
-    </nav>
+     
+      <!--Bellow command adds dropright menu to the sidebar-->
 
-    <p style="font-size:75%"> &copy; {{ site.time | date: '%Y' }}</p>
+<div class="dropdown">
+  <button class="dropbtn" style="text-align:left;font-size:18px">Dropright Menu></button>
+  <div class="dropdown-content">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
   </div>
 </div>
+      
+   </nav>
+  </div>
+ </div>
+</html>

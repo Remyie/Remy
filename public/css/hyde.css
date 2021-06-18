@@ -33,7 +33,12 @@
 
 html {
   font-family: "PT Sans", Helvetica, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
 }
+
+/* Changes sidebar's fontsize depending on the width. Disabling it makes it more simple.
+
 @media (min-width: 48em) {
   html {
     font-size: 16px;
@@ -41,9 +46,11 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
+
+*/
 
 
 /*
@@ -53,32 +60,101 @@ html {
  * out above content in mobile and later moves to the side with wider viewports.
  */
 
+.dropbtn {
+  background-color: transparent;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  padding: 0px 5px 0px 0px;
+}
+
+
+/* None of these works. I don't know why but it made me so frusturated that I made the whole site's font size static.
+
+button (min-width: 48em) {
+  font-size: 16px;
+}
+
+button (min-width: 58em) {
+  font-size: 18px;
+}
+*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  background-color: #363636;
+  min-width: 120px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  right: auto;
+  left: 0;
+  top: 0;
+  float:right;
+}
+
+.dropdown-content a {
+  padding: 4px 6px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #525252;
+  text-decoration: underline;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  text-decoration: underline;
+}
+
+/************************/
+
+/* Logo */
 img {
   display: block;
   margin-left:auto;
   margin-right:auto;
 }
 
+
+
 .sidebar {
-  text-align: center;
+  text-align: left;
   padding: 2rem 1rem;
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
     top: 0;
     left: 0;
     bottom: 0;
-    width: 18rem;
+    width: 20rem;
     text-align: left;
   }
 }
 
 /* Sidebar links */
 .sidebar a {
-  color: #fff;
+color:#fff;
+}
+
+
+/* On mouse-over */
+.sidenav a:hover {
+  color: #f1f1f1;
 }
 
 /* About section */
@@ -93,6 +169,7 @@ img {
 .sidebar-nav {
   margin-bottom: 1rem;
 }
+
 .sidebar-nav-item {
   display: block;
   line-height: 1.75;
@@ -134,8 +211,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 48em) {
   .content {
-    max-width: 66rem;
-    margin-left: 20rem;
+    max-width: 100rem;
+    margin-left: 22rem;
     margin-right: 2rem;
   }
 }
@@ -143,7 +220,7 @@ a.sidebar-nav-item:focus {
 @media (min-width: 64em) {
   .content {
     margin-left: 22rem;
-    margin-right: 4rem;
+    margin-right: 2rem;
   }
 }
 
